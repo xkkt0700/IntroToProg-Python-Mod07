@@ -39,6 +39,7 @@ To restore the pickled data, we use the load() function. To protect your compute
 
 
 ![Listing03.](/Listing03.jpg "Listing 03.")
+**Listing 3.**
 **Listing 3.** Reading Data from a File and Unpickling It
 
 <h3>Summary</h3>
