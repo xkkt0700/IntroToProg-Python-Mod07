@@ -29,13 +29,16 @@ I chose a blog called JournalDev https://www.journaldev.com/ as an external refe
 
 <h3>Pickling Data and Writing It To a File</h3>
 In my assignment illustrated below, I followed the examples in the external blog but changed a few concepts to make it my own. Essentially, I opened a new binary file named grocery.dat for writing by passing wb as the file access mode. wb stands for write binary. I then use the dump() function to move the data into the .dat file.  After closing the file, I finally show the user what the pickled data looks like to indeed prove that pickling was successful. 
+
+![Listing02.](/Listing02.jpg "Listing 02.")
  
 **Listing 2.** Pickling Data and Writing It To a File
 
 <h3>Reading Data from a File and Unpickling It</h3>
 To restore the pickled data, we use the load() function. To protect your computer from malicious acivity, it’s best not to unpickle data from an untrusted source. The pickling module does all the work to de-serialize the data upon loading. Next I close the file, and print the contents to prove to the user that the data is now in a format that humans understand. I had to use a simple counter in order to print all of the data in the file.  
 
- 
+
+![Listing03.](/Listing03.jpg "Listing 03.")
 **Listing 3.** Reading Data from a File and Unpickling It
 
 <h3>Summary</h3>
