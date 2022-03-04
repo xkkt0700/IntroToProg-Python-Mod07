@@ -45,5 +45,6 @@ To restore the pickled data, we use the load() function. To protect your compute
 
 <h3>Summary</h3>
 Exception handling makes code more robust and also helps prevent potential failures that can cause a program to crash. It is a best practice to include exception handling, especially when working with the presentation code layer. The Python pickling module allows data storage in binary mode, which is valuable when tranporting data.
+
 I found the assignment this week was a bit easier than prior weeks. A breath of fresh air! Maybe Randal is giving us break before the rigor of week 8. Upon completion of my script, I realized that I probably should’ve created functions to exemplify pickling, which would’ve made the code more re-usable and adheres to best practices. 
 
