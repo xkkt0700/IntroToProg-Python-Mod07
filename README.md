@@ -18,11 +18,12 @@ I found an informative explanation of Python structured error handling at a popu
 **Listing 1.** Example of Try Except Else
 
 The try statement in my code works as follows.
-•	First, the try clause (the statement(s) between the try and except keywords) is executed.
-•	If no exception occurs, the except clause is skipped and execution of the try statement is finished.
-•	If an exception occurs during execution of the try clause, the rest of the clause is skipped. Then, if its type matches the exception named after the except keyword, the except clause is executed, and then execution continues after the try/except block.
-•	If an exception occurs which does not match the exception named in the except clause, it would be passed on to outer try statements. If no handler is found, it is an unhandled exception and execution stops with a message from Python.
-
+<ol>
+<li>First, the try clause (the statement(s) between the try and except keywords) is executed.</li>
+<li>If no exception occurs, the except clause is skipped and execution of the try statement is finished.</li>
+<li>If an exception occurs during execution of the try clause, the rest of the clause is skipped. Then, if its type matches the exception named after the except keyword, the except clause is executed, and then execution continues after the try/except block.</li>
+<li>If an exception occurs which does not match the exception named in the except clause, it would be passed on to outer try statements. If no handler is found, it is an unhandled exception and execution stops with a message from Python.</li>
+</ol> 
 <h3>Let’s Pickle!</h3>
 The concept of pickling is actually quite simple. Instead of writing actual characters to a file, a pickled object is stored as a binary file. We can pickle a variety of objects, such as: dictionaries, lists, tuples, strings and numbers. Picking begins by importing the pickle module. 
 I chose a blog called JournalDev https://www.journaldev.com/ as an external reference because it seemed to be one of the less common Python reference websites, and I deemed it to be trust worthy.  I wanted to find a website or external reference that other students wouldn’t be as inclined to use. Additionally, the examples in the refernced blog were very similar to what Randal taught us in lecture.   
