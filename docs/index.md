@@ -14,7 +14,7 @@ When Python encounters an error, the script is stopped and an error message is d
 
 I found an informative explanation of Python structured error handling at a popular website called The Python Guru (https://thepythonguru.com/python-exception-handling/). This external reference illustrated, in great detail, many different examples. The first few examples were simple, but they grew more complex. I followed their examples and began my assignment this week by testing if the user of my script indeed enters an integer when prompted. 
 
-![Listing01.](Listing01.jpg "Listing 01.")
+![Listing01.](/Listing01.jpg "Listing 01.")
 **Listing 1.** Example of Try Except Else
 
 The try statement in my code works as follows.
