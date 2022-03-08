@@ -14,7 +14,7 @@ When Python encounters an error, the script is stopped and an error message is d
 
 I found an informative explanation of Python structured error handling at a popular website called The Python Guru (https://thepythonguru.com/python-exception-handling/). This external reference illustrated, in great detail, many different examples. The first few examples were simple, but they grew more complex. I followed their examples and began my assignment this week by testing if the user of my script indeed enters an integer when prompted. 
 
-![Listing01.](/Listing01.jpg "Listing 01.")
+![Listing01.](Listing01.jpg "Listing 01.")
 **Listing 1.** Example of Try Except Else
 
 The try statement in my code works as follows.
@@ -31,7 +31,7 @@ I chose a blog called JournalDev https://www.journaldev.com/ as an external refe
 <h3>Pickling Data and Writing It To a File</h3>
 In my assignment illustrated below, I followed the examples in the external blog but changed a few concepts to make it my own. Essentially, I opened a new binary file named grocery.dat for writing by passing wb as the file access mode. wb stands for write binary. I then use the dump() function to move the data into the .dat file.  After closing the file, I finally show the user what the pickled data looks like to indeed prove that pickling was successful. 
 
-![Listing02.](/Listing02.jpg "Listing 02.")
+![Listing02.](Listing02.jpg "Listing 02.")
  
 **Listing 2.** Pickling Data and Writing It To a File
 
