@@ -39,7 +39,7 @@ In my assignment illustrated below, I followed the examples in the external blog
 To restore the pickled data, we use the load() function. To protect your computer from malicious acivity, it’s best not to unpickle data from an untrusted source. The pickling module does all the work to de-serialize the data upon loading. Next I close the file, and print the contents to prove to the user that the data is now in a format that humans understand. I had to use a simple counter in order to print all of the data in the file.  
 
 
-![Listing03.](/Listing03.jpg "Listing 03.")
+![Listing03.](Listing03.jpg "Listing 03.")
 
 **Listing 3.** Reading Data from a File and Unpickling It
 
